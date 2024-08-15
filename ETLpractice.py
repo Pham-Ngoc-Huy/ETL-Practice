@@ -8,7 +8,7 @@ import sys
 logging.basicConfig(
     filename='etl_process.log',
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s py- %(levelname)s - %(message)s'
 )
 
 def log_and_notify(message, level='info'):

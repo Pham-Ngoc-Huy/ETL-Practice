@@ -1,0 +1,33 @@
+
+Here's a realistic ETL (Extract, Transform, Load) exercise that you can work on using Python and SQL:
+
+Scenario:
+You work for a retail company that collects daily sales data from multiple stores. The data from each store is provided in CSV format and contains the following information:
+
+Date: The date of the transaction.
+Store_ID: Unique identifier for each store.
+Product_ID: Unique identifier for each product.
+Quantity_Sold: The number of units sold.
+Sales_Amount: The total sales amount for that product on that day.
+Task:
+Your goal is to design an ETL pipeline that:
+
+Extract: Loads the daily sales data from multiple CSV files into Python.
+Transform:
+Ensure that all dates are in YYYY-MM-DD format.
+Handle missing values: If Quantity_Sold or Sales_Amount is missing, replace it with 0.
+Calculate the total sales for each store per day.
+Create a new column Sales_Per_Product that calculates the average sales amount per unit for each product.
+Load:
+Load the transformed data into a SQL database (e.g., SQLite or PostgreSQL).
+Create a summary table in the database that aggregates the total sales for each store on a daily basis.
+Steps:
+Data Extraction:
+Write a Python script that reads in multiple CSV files from a directory.
+Data Transformation:
+Perform the necessary data cleaning and transformation using Pandas.
+Ensure all columns are in the correct format, handle missing values, and calculate the required metrics.
+Data Loading:
+Create tables in an SQL database to store the cleaned and transformed data.
+Write the transformed data to the SQL tables.
+Create a SQL query to generate the summary table.

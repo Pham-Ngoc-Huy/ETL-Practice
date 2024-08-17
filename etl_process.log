@@ -2,3 +2,5 @@
 2024-08-15 19:29:51,113 py- ERROR - Failed to extract data from /Users/thaongan/Documents/Python/ETL-PRACTICE/sales_data.csv. Error: [Errno 2] No such file or directory: '/Users/thaongan/Documents/Python/ETL-PRACTICE/sales_data.csv'
 2024-08-15 19:30:55,298 py- INFO - Successfully connected to the SQL Server database.
 2024-08-15 19:30:55,299 py- ERROR - Failed to extract data from /Users/thaongan/Documents/Python/ETL-PRACTICE/sales_data.csv. Error: [Errno 2] No such file or directory: '/Users/thaongan/Documents/Python/ETL-PRACTICE/sales_data.csv'
+2024-08-16 11:52:41,674 py- INFO - Successfully connected to the SQL Server database.
+2024-08-16 11:52:41,676 py- ERROR - Failed to extract data from /Users/thaongan/Documents/Python/ETL-PRACTICE/sales_data.csv. Error: [Errno 2] No such file or directory: '/Users/thaongan/Documents/Python/ETL-PRACTICE/sales_data.csv'

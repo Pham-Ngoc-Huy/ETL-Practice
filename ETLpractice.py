@@ -15,7 +15,7 @@ def log_and_notify(message, level='info'):
     """Log a message and print notification to console."""
     if level == 'info':
         logging.info(message)
-        print(f"INFO: {message}")
+        print(f"INFO: {message  }")
     elif level == 'error':
         logging.error(message)
         print(f"ERROR: {message}")

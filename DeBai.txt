@@ -22,6 +22,7 @@ Load:
 Load the transformed data into a SQL database (e.g., SQLite or PostgreSQL).
 Create a summary table in the database that aggregates the total sales for each store on a daily basis.
 Steps:
+
 Data Extraction:
 Write a Python script that reads in multiple CSV files from a directory.
 Data Transformation:

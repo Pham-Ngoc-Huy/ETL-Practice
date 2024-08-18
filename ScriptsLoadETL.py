@@ -5,6 +5,24 @@ from sqlalchemy import create_engine
 import pyodbc
 import logging
 import os  
+import sys #use to exit the script log when error occur
+
+# Configure logging
+logging.basicConfig(
+    filename='etl_process.log',
+    level=logging.INFO,
+    format='%(asctime)s py- %(levelname)s - %(message)s'
+)
+
+def log_and_modify(message, level ='info'):
+    """Log a message and print notification to console."""
+    if level == 'info':
+        logging.info(message)
+        print(f"INFO: {message  }")
+    elif level == 'error':
+        logging.error(message)
+        print(f"ERROR: {message}")
+        sys.exit(1)  # Exit the script on error
 
 def read_csv_files(directory):
     csv_files = {}
